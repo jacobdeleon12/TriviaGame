@@ -9,3 +9,11 @@ body{
 #header{
     background: white;
 }
+
+.questions{
+    background: white;
+    margin: 20px;
+    height:auto;
+    text-align: center;
+    padding: 10px;
+}
