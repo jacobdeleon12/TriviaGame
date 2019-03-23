@@ -7,13 +7,13 @@ var gameRunning = false;
 var myQuestions = [
     {
       question: "Who does the opening monologue for every 'Twilight Zone' episode?",
-      answers: {
-        a: "Orson Welles",
-        b: "Earl Hamner Jr.",
-        c: "Rod Serling",
-        d: "Jack Palance"
-      },
-      correctAnswer: "c"
+      answers: [
+        "Orson Welles",
+        "Earl Hamner Jr.",
+        "Rod Serling",
+        "Jack Palance"
+      ],
+      correctAnswer: "Rod Serling"
     }
   ];
 
@@ -28,14 +28,21 @@ function newGame() {
     // console.log(gameRunning);
 
     // clearing the dom
-    // $(".questions").empty();
+    $(".questions").empty();
 
     //pushing question to dom
     
 
 
-    $("#domQuestions").html(myQuestions.question);
-    console.log(help);
+    $("#domQuestions").html(myQuestions[0].question);
+    // + myQuestions[1].answers
+    
+    // $("#domAnswers").html("type", raido);
+    for (i = 0; i < 4; i++) {
+      $('#domAnswers').append('<input type="radio" name="radio_name" />');
+      $("#domAnswers").append(myQuestions[0].answers[i])
+  }
+    console.log(myQuestions[0].question);
     
     
 
