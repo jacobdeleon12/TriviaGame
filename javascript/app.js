@@ -34,8 +34,8 @@ function newGame() {
     
 
 
-    $("#domQuestions").html(myQuestions.question);
-    console.log(help);
+    $("#domQuestions").html(myQuestions[0]);
+    console.log(myQuestions[0]);
     
     
 
