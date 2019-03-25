@@ -2,18 +2,21 @@ body{
     background: url(../images/maxresdefault.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-animation: rotate-center 100000ms ease-in-out both;
-    animation: rotate-center 100000ms ease-in-out both;
+   
 }
 
 #header{
     background: white;
 }
 
-.questions{
+.questionsHeader{
     background: white;
     margin: 20px;
     height:auto;
     text-align: center;
     padding: 10px;
+}
+
+input[type=radio_name]{
+    height: .5em;
 }
