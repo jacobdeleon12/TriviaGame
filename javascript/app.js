@@ -60,13 +60,12 @@ function newGame() {
     for (i = 0; i < 4; i++) {
       //create radio buttons
       $('#domAnswers').append('<div class="btn"><input type="radio", name="radio_name", class = "radio"  />' + myQuestions[j].answers[i] + '</div>'); 
+      
       $('#domAnswers').append('<br/>'); 
     
     }
 
     }
-    
-    
     $(".btn").on("click", function(){
        text = $(this).text();
       console.log(text);
@@ -77,7 +76,7 @@ function newGame() {
     
     $('#finsh').append("<button id='finshBtn'>Finish</button>");
 
-    checkAnswers();
+
     
 }
 
