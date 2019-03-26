@@ -1,5 +1,5 @@
 body{
-    background: url(../images/maxresdefault.jpg) ;
+    background: url(../images/background.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -7,6 +7,10 @@ body{
 
 #header{
     background: white;
+    background: url(../images/the-twilight-zone2.0);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .questionsHeader{
@@ -15,8 +19,5 @@ body{
     height:auto;
     text-align: center;
     padding: 10px;
-}
-
-input[type=radio_name]{
-    height: .5em;
+    opacity: .9;
 }
