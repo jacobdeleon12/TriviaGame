@@ -1,11 +1,10 @@
-body{
-    background: url(../images/background.jpg) ;
+body {
+    background: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-   
 }
 
-#header{
+#header {
     background: white;
     background: url(../images/the-twilight-zone2.0);
     height: 200px;
@@ -13,11 +12,15 @@ body{
     background-size: auto;
 }
 
-.questionsHeader{
+.questionsHeader {
     background: white;
     margin: 20px;
-    height:auto;
+    height: auto;
     text-align: center;
     padding: 10px;
     opacity: .9;
+}
+
+#wrapper {
+    border-radius: 25px;
 }
